@@ -7,34 +7,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--===============================================================================================-->	
-        <link rel="icon" type="image/png" href="{{asset('assets/images/icons/favicon.png')}}"/>
+        <link rel="icon" type="image/png" href="{{asset('public/assets/images/icons/favicon.png')}}"/>
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/bootstrap/css/bootstrap.min.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/fonts/iconic/css/material-design-iconic-font.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/fonts/iconic/css/material-design-iconic-font.min.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/fonts/linearicons-v1.0.0/icon-font.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/fonts/linearicons-v1.0.0/icon-font.min.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/animate/animate.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/animate/animate.css')}}">
         <!--===============================================================================================-->	
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/css-hamburgers/hamburgers.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/css-hamburgers/hamburgers.min.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/animsition/css/animsition.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/animsition/css/animsition.min.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/select2/select2.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/select2/select2.min.css')}}">
         <!--===============================================================================================-->	
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/daterangepicker/daterangepicker.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/daterangepicker/daterangepicker.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/slick/slick.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/slick/slick.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/MagnificPopup/magnific-popup.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/MagnificPopup/magnific-popup.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/vendor/perfect-scrollbar/perfect-scrollbar.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/vendor/perfect-scrollbar/perfect-scrollbar.css')}}">
         <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/util.css')}}">
-        <link rel="stylesheet" type="text/css" href="{{secure_asset('assets/css/main.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/css/util.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{secure_asset('public/assets/css/main.css')}}">
         <!--===============================================================================================-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -96,7 +96,7 @@
                         
                         <!-- Logo desktop -->		
                         <a href="/" class="logo">
-                            <img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO">
+                            <img src="{{asset('public/assets/images/icons/logo-01.png')}}" alt="IMG-LOGO">
                         </a>
     
                         <!-- Menu desktop -->
@@ -129,7 +129,7 @@
                         <div class="wrap-icon-header flex-w flex-r-m">
 							@if (!($data->type == 'seller'))
 							<a href="/seller-login" class="dis-block icon-header-item cl2 hov-cl1 trans-04">
-								<img src="{{asset('assets/images/icons/greetings.png')}}" alt="greetings">
+								<img src="{{asset('public/assets/images/icons/greetings.png')}}" alt="greetings">
 								<span style="font-size: 12px;">
 									<b>Join Us on Easy4u & sell your products</b>
 								</span>
@@ -149,7 +149,7 @@
             <div class="wrap-header-mobile">
                 <!-- Logo moblie -->		
                 <div class="logo-mobile">
-                    <a href="/"><img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
+                    <a href="/"><img src="{{asset('public/assets/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
                 </div>
     
                 <!-- Icon header -->
@@ -245,7 +245,7 @@
 					@if (!($data->type == 'seller'))	
 						<li>
 							<a href="/seller-login">
-								<img src="{{asset('assets/images/icons/greetings.png')}}" alt="greetings">
+								<img src="{{asset('public/assets/images/icons/greetings.png')}}" alt="greetings">
 								<span style="font-size: 13px; margin-left: 2%">
 									<b><i> Join Us on Easy4u & sell your products </i></b>
 									
@@ -260,7 +260,7 @@
             <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
                 <div class="container-search-header">
                     <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
-                        <img src="{{asset('assets/images/icons/icon-close2.png')}}" alt="CLOSE">
+                        <img src="{{asset('public/assets/images/icons/icon-close2.png')}}" alt="CLOSE">
                     </button>
     
                     <form class="wrap-search-header flex-w p-l-15">
@@ -443,14 +443,14 @@
 		</footer>
 
 	<!--===============================================================================================-->	
-		<script src="{{secure_asset('assets/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/animsition/js/animsition.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/animsition/js/animsition.min.js')}}"></script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/bootstrap/js/popper.js')}}"></script>
-		<script src="{{secure_asset('assets/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/bootstrap/js/popper.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/select2/select2.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/select2/select2.min.js')}}"></script>
 		<script>
 			$(".js-select2").each(function(){
 				$(this).select2({
@@ -460,18 +460,18 @@
 			})
 		</script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/daterangepicker/moment.min.js')}}"></script>
-		<script src="{{secure_asset('assets/vendor/daterangepicker/daterangepicker.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/daterangepicker/moment.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/daterangepicker/daterangepicker.js')}}"></script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/slick/slick.min.js')}}"></script>
-		<script src="{{secure_asset('assets/js/slick-custom.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/slick/slick.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/js/slick-custom.js')}}"></script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/parallax100/parallax100.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/parallax100/parallax100.js')}}"></script>
 		<script>
 			$('.parallax100').parallax100();
 		</script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/MagnificPopup/jquery.magnific-popup.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/MagnificPopup/jquery.magnific-popup.min.js')}}"></script>
 		<script>
 			$('.gallery-lb').each(function() { // the containers for all your galleries
 				$(this).magnificPopup({
@@ -485,11 +485,11 @@
 			});
 		</script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/isotope/isotope.pkgd.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/isotope/isotope.pkgd.min.js')}}"></script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/sweetalert/sweetalert.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/sweetalert/sweetalert.min.js')}}"></script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
+		<script src="{{secure_asset('public/assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
 		<script>
 			$('.js-pscroll').each(function(){
 				$(this).css('position','relative');
@@ -506,7 +506,7 @@
 			});
 		</script>
 	<!--===============================================================================================-->
-		<script src="{{secure_asset('assets/js/main.js')}}"></script>
+		<script src="{{secure_asset('public/assets/js/main.js')}}"></script>
 		<script>
 			function proId(productId) {
 				valueId = productId["id"];
