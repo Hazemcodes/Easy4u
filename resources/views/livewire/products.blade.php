@@ -60,7 +60,7 @@
         <div class="col-sm-6 col-md-4 col-lg-3 p-b-20 p-t-20 isotope-item" style="background-color: rgb(248, 248, 248) ">
             <div class="block2-pic hov-img0 m-l-20 m-r-20">
                 <a href="addNewProduct">
-                    <img style="margin-left:auto; margin-right: auto;" src={{asset('assets/images/icons/plus.png')}} alt="add new item">
+                    <img style="margin-left:auto; margin-right: auto;" src={{asset('public/assets/images/icons/plus.png')}} alt="add new item">
                 </a>
             </div>
         </div>
