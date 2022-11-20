@@ -23,14 +23,14 @@
 						<label for="email">Email Address</label>
 						<div class="bor8 m-b-2 how-pos4-parent">
 						<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="email" name="email" value="{{old('email')}}" placeholder="Your Email Address">
-							<img class="how-pos4 pointer-none" src={{asset("assets/images/icons/icon-email.png")}} alt="ICON">
+							<img class="how-pos4 pointer-none" src={{asset("public/assets/images/icons/icon-email.png")}} alt="ICON">
 						</div>
 						<span class="text-danger">@error('email') {{$message}} @enderror</span>
 						
 						<label for="password">Password</label>
 						<div class="bor8 m-b-2 how-pos4-parent m-t-10">
 							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="password" name="password" placeholder="Your Password">
-							<img class="how-pos4 pointer-none" src={{asset("assets/images/icons/icon-email.png")}} alt="ICON">
+							<img class="how-pos4 pointer-none" src={{asset("public/assets/images/icons/icon-email.png")}} alt="ICON">
 						</div>
 						<span class="text-danger">@error('password') {{$message}} @enderror</span>
 

@@ -23,7 +23,7 @@
 						<label for="name">Name</label>
 						<div class="bor8 m-b-2 how-pos4-parent">
 						<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="name" name="name" value="{{old('name')}}" placeholder="Your Name">
-							<img class="how-pos4 pointer-none" src={{asset("assets/images/icons/icon-email.png")}} alt="ICON">
+							<img class="how-pos4 pointer-none" src={{asset("public/assets/images/icons/icon-email.png")}} alt="ICON">
 						</div>
 						<span class="text-danger">@error('name') {{$message}} @enderror</span>
 
@@ -32,7 +32,7 @@
 						<label for="email">Email Address</label>
 						<div class="bor8 m-b-2 how-pos4-parent">
 						<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="email" name="email" value="{{old('email')}}" placeholder="Your Email Address">
-							<img class="how-pos4 pointer-none" src={{asset("assets/images/icons/icon-email.png")}} alt="ICON">
+							<img class="how-pos4 pointer-none" src={{asset("public/assets/images/icons/icon-email.png")}} alt="ICON">
 						</div>
 						<span class="text-danger">@error('email') {{$message}} @enderror</span>
 						
@@ -63,7 +63,7 @@
 						<label for="phoneNumber">Phone Number</label>
 						<div class="bor8 m-b-2 how-pos4-parent">
 						<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="phone" name="phoneNumber" value="{{old('phoneNumber')}}" placeholder="Your phone Number">
-							<img class="how-pos4 pointer-none" src={{asset("assets/images/icons/phone.png")}} alt="ICON">
+							<img class="how-pos4 pointer-none" src={{asset("public/assets/images/icons/phone.png")}} alt="ICON">
 						</div>
 						<span class="text-danger">@error('phoneNumber') {{$message}} @enderror</span>
 
@@ -71,7 +71,7 @@
 						<label for="password">Password</label>
 						<div class="bor8 m-b-2 how-pos4-parent m-t-10">
 							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="password" name="password" placeholder="Your Password">
-							<img class="how-pos4 pointer-none" src={{asset("assets/images/icons/icon-email.png")}} alt="ICON">
+							<img class="how-pos4 pointer-none" src={{asset("public/assets/images/icons/icon-email.png")}} alt="ICON">
 						</div>
 						<span class="text-danger">@error('password') {{$message}} @enderror</span>
 
