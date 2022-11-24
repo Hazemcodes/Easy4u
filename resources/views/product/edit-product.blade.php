@@ -74,7 +74,7 @@
 						<div class="m-t-10 m-b-10 ">
 							<label for="photo" style="text-align: right; float:left; margin-right:15px;">Image</label>
 							@if ($product->photo)
-								<img width="300" src="{{secure_asset("public/assets/images/".$product->photo)}}" alt="ProductImage">
+								<img width="300" src="{{secure_asset($product->photo)}}" alt="ProductImage">
 							@endif
 							<input id="image" type="file" accept="image/*" name="photo" value="{{old('photo')}}" onchange="loadFile(event)">
 							<p><img id="output" width="300" /></p>

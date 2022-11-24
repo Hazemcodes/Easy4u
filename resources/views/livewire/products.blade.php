@@ -23,7 +23,7 @@
                         <div class="block2-pic hov-img0">
                             <div class="wrapper">
                                 <div class="content">
-                                    <img style="height: 250px; width: 250px;" src={{asset("public/assets/images/".$products[$i]->photo)}} alt="IMG-PRODUCT">
+                                    <img style="height: 250px; width: 250px;" src={{asset($products[$i]->photo)}} alt="IMG-PRODUCT">
                                     @if ($data->type == 'seller' || $data->type == 'admin')
                                         <a href="{{url('delete-prod/'.$products[$i]->id)}}"><i class="fa fa-trash" aria-hidden="true" style="color: red;font-size: 20px;"></i></a>
                                         @if ($data->type == 'seller')

@@ -61,7 +61,7 @@ class ProductController extends Controller
         if ($request->hasFile('photo')) {
             $image = $request->file('photo');
             $image_name = time().'.'.$image->getClientOriginalExtension();
-            $destinationPath = 'assets/images';
+            $destinationPath = 'public/assets/images';
             $image->move($destinationPath, $image_name);            
 
             $res = Product::create([
